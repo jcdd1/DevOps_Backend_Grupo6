@@ -1,4 +1,4 @@
-const { dataSource } = require('../database'); 
+const { connection, dataSource } = require('../database');
 const SendEmail = require('./SendEmail'); 
 const crypto = require('crypto'); 
 const dotenv = require('dotenv');

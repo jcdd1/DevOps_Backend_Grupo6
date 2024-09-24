@@ -26,3 +26,5 @@ app.listen(process.env.portbackend || 3000, () => {
 app.use('/login', require('./routes/authentication'));
 app.use('/country', require('./routes/country'));
 app.use('/identification', require('./routes/identification'));
+app.use('/SendEmail', require ('./routes/SendEmail'));
+app.use('/ForgotPassword', require ('./routes/ForgotPassword'));
